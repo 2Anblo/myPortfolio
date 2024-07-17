@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
-@import url(universal.css);
+@import url(./universal.css);
 
 .custom-margin {
     margin-top: 50vh;
@@ -10,7 +10,7 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: var(--first-color);
+    color: black;
 }
 
 /* .center-body {
@@ -22,13 +22,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .text-body {
-    margin-top: 10vh;
+    margin-top: 20vh;
 }
 
+.img-body{
+    margin-top: 0vh;
+}
 
   
 h3 span, h4 span{
-    color:#e7450a
+    color: var(--first-color);
 }
 
 .list-inline {
@@ -37,7 +40,7 @@ h3 span, h4 span{
 }
 
 .list-inline-item a i {
-    color: white;
+    color: var(--first-color);
 }
   
 .list-inline-item a i:hover {
