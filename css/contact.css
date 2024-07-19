@@ -1,0 +1,10 @@
+.bottom-container {
+    position: fixed; /* 使用固定定位 */
+    bottom: 20%; /* 设置底部对齐 */
+    left: 0; /* 左边距为0 */
+    right: 0; /* 右边距为0 */
+    width: 80%; /* 宽度设置为80% */
+    margin: auto; /* 自动边距实现水平居中 */
+    justify-content: center; /* 水平居中内容 */
+    align-items: center; /* 垂直居中内容 */
+  }

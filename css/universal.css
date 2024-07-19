@@ -18,7 +18,7 @@
     
     body {
         background-color: var(--body-color);
-        color: white; /* set text color to white for better readability */
+        color: #353232; /* set text color to white for better readability */
         cursor:auto;
      } 
     
@@ -35,6 +35,6 @@
       }
       
      .bg-content{
-        background-color: #353232;
+        background-color: #ffffff;
         border-radius: 2%;
      }
